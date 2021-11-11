@@ -51,7 +51,7 @@ def valid(suku, num, pos):
     return True                                         # If everything is valid, return True
 
 
-def print_puzzle(suku):
+def print_puzzle(suku):                                 # Print a sudoku board for visualisation
     for y in range(len(suku)):                          # Count Y axis
         if y % 3 == 0 and y != 0:
             print("-----------------------")
